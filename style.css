@@ -100,7 +100,6 @@
     border: 1px solid rgba(128, 128, 128, 0.199);
     border-radius: 8px;
 }
-
 .speaker-box img {
     width: 100%;
     border-top-left-radius: 8px;
@@ -124,4 +123,104 @@
     color: #575757;
     margin-left: 30px;
     margin-top: 10px;
+}
+/* Speaker Section Ends Here  */
+/* Membership Purchase Section Starts Here  */
+.membership-section{
+    margin-bottom: 60px;
+}
+.purchase-header{
+    text-align: center;
+    margin-top: 110px;
+}
+.purchase-header h2{
+    font-size: 45px;
+    margin-bottom: 10px;
+}
+.purchase-header p{
+    font-size: small;
+    color: #575757;
+    margin-bottom: 40px;
+}
+.cards{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card{
+    height: 450px;
+    width: 280px;
+    border: 1px solid rgba(128, 128, 128, 0.199);
+    border-radius: 8px;
+    padding-left: 50px;
+    margin-right: 25px;
+}
+.card p{
+    margin-top: 40px;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #888888;
+    text-transform: uppercase;
+}
+.card h2{
+    font-size: 35px;
+    margin-bottom: 5px;
+}
+.card span{
+    color: #888888;
+    font-size: small;
+    margin-bottom: 60px;
+}
+.card-border{
+    margin-top: 25px;
+    margin-bottom: 20px;
+    border-bottom: 1.5px solid rgba(128, 128, 128, 0.199);
+    width: 90%;
+}
+.card-list ul{
+    margin-bottom: 25px;
+}
+.card-list ul li{
+    margin-left: 15px;
+    font-size: small;
+    color: #333333;
+    margin-bottom: 15px;
+}
+.card-list ul li::marker {
+  color: #2563EB;
+}
+.card button{
+    width: 240px;
+    height: 40px;
+    background-color: white;
+    font-weight: bold;
+    color: #2563EB;
+    border: 1px solid #2563EB;
+    border-radius: 8px;
+}
+.card-2{
+    background-color: #0D1B2A;
+}
+.card-2 p{
+    color: #93C5FD;
+}
+.card-2 h2{
+    color: white;
+}
+.card-2 span{
+    color: #ffffff7c;
+}
+.card-list-2 ul li{
+    color: #ffffffbc;
+}
+.card-2 button{
+    background-color: #2563EB;
+    color: white;
+}
+.card-3{
+    background-color: #F8F9FB;
+}
+.card-3 button{
+    border: 1px solid #0D1B2A;
+    color: #0D1B2A;
 }
