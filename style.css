@@ -225,8 +225,121 @@
     color: #0D1B2A;
 }
 /* Pricing Section Ends Here  */
+/* Something missing section replace by using AI Starts Here  */
+ .faq-section {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 60px 20px;
+  }
 
+  .faq-header h1 {
+    font-size: 32px;
+    font-weight: 800;
+    color: #1a1a2e;
+    margin-bottom: 8px;
+  }
 
+  .faq-header p {
+    font-size: 15px;
+    color: #8a8a9a;
+    margin-bottom: 48px;
+  }
+
+  .faq-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 40px 32px;
+    margin-bottom: 56px;
+  }
+
+  .faq-icon {
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    background: #eceafd;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 18px;
+  }
+
+  .faq-icon svg {
+    width: 20px;
+    height: 20px;
+    stroke: #5b4de8;
+  }
+
+  .faq-item h3 {
+    font-size: 16px;
+    font-weight: 700;
+    color: #1a1a2e;
+    margin-bottom: 10px;
+  }
+
+  .faq-item p {
+    font-size: 14px;
+    line-height: 1.6;
+    color: #9a9aab;
+  }
+
+  .faq-cta {
+    background: #f7f7fb;
+    border-radius: 20px;
+    padding: 48px 24px;
+    text-align: center;
+  }
+
+  .avatars {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+
+  .avatars img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: 3px solid #f7f7fb;
+    object-fit: cover;
+    margin-left: -12px;
+  }
+
+  .avatars img:first-child {
+    margin-left: 0;
+  }
+
+  .faq-cta h2 {
+    font-size: 20px;
+    font-weight: 700;
+    color: #1a1a2e;
+    margin-bottom: 10px;
+  }
+
+  .faq-cta p {
+    font-size: 14px;
+    color: #9a9aab;
+    margin-bottom: 24px;
+  }
+
+  .cta-button {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    background: #5b4de8;
+    color: #ffffff;
+    font-size: 14px;
+    font-weight: 600;
+    border: none;
+    padding: 13px 26px;
+    border-radius: 999px;
+    cursor: pointer;
+  }
+
+  .cta-button svg {
+    width: 16px;
+    height: 16px;
+  }
+/* Something missing section replace by using AI Starts Here  */
 /* Footer Section Starts Here  */
 .footer{
     width: 100%;
